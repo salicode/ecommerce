@@ -41,3 +41,6 @@ app.listen(PORT, () => {
 	console.log("Server is running on http://localhost:" + PORT);
 	connectDB();
 });
+
+
+// my mongodb password N80B22jR6Ukm68R8

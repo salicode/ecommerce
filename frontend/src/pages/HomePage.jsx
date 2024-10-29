@@ -11,7 +11,11 @@ const categories = [
 	{ href: "/jackets", name: "Jackets", imageUrl: "/jackets.jpg" },
 	{ href: "/suits", name: "Suits", imageUrl: "/suits.jpg" },
 	{ href: "/bags", name: "Bags", imageUrl: "/bags.jpg" },
+	{ href: "/fruits", name: "Fruit", imageUrl: "/fruits.jpeg" },
 ];
+
+console.log("Categories", categories)
+
 
 const HomePage = () => {
 	const { fetchFeaturedProducts, products, isLoading } = useProductStore();
